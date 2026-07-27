@@ -6335,7 +6335,7 @@
 		(uuid "32b7d984-73d2-4644-b2b2-7ef61d283341")
 	)
 	(label "CFB1"
-		(at 336.55 157.48 0)
+		(at 336.55 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6367,7 +6367,7 @@
 		(uuid "67852c71-734d-41b6-9344-f23e2de5c976")
 	)
 	(label "CFB3_SDA"
-		(at 336.55 162.56 0)
+		(at 336.55 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6377,7 +6377,7 @@
 		)
 		(uuid "6a7c20b0-6e35-4ab9-8a41-78959c6046fe")
 	)
-	(label "USB_N"
+	(label "USB_P"
 		(at 161.29 88.9 0)
 		(effects
 			(font
@@ -6431,7 +6431,7 @@
 		)
 		(uuid "a50ed905-ec12-4fc0-8630-3ced0e9b05aa")
 	)
-	(label "USB_P"
+	(label "USB_N"
 		(at 161.29 86.36 0)
 		(effects
 			(font
@@ -12669,7 +12669,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 358.14 78.74 0)
+		(at 358.14 81.28 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12677,10 +12678,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e11ca59a-331e-4790-aae6-e146837aef59")
 		(property "Reference" "J1"
-			(at 360.68 78.7399 0)
+			(at 360.68 81.2801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12691,7 +12691,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 360.68 81.2799 0)
+			(at 360.68 78.7401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12702,7 +12702,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 358.14 78.74 0)
+			(at 358.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12713,7 +12713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 78.74 0)
+			(at 358.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12724,7 +12724,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 358.14 78.74 0)
+			(at 358.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
