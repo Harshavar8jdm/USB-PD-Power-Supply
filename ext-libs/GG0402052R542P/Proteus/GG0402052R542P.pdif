@@ -1,0 +1,107 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "GG0402052R542P"
+   (description "ESD Suppressors / TVS Diodes SMP Diode 0402 5vdc 2.5 pf <12v clamp@1a")
+   (family "DIO")
+   (package "DIONC1006X55N")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Mouser Part Number" "581-GG0402052R542P")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/GG0402052R542P?qs=AQlKX63v8RvyHtzj%2F7p1Bg%3D%3D")
+   (attribute "Manufacturer_Name" "Kyocera AVX")
+   (attribute "Manufacturer_Part_Number" "GG0402052R542P")
+   (gate
+    (symbol "GG0402052R542P")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "GG0402052R542P"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 200 -100) (pt 200 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 600 -100) (pt 600 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 360 100) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 440 -100))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIONC1006X55N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.15 0.6)
+      (pt 1.15 0.6)
+      (pt 1.15 -0.6)
+      (pt -1.15 -0.6)
+      (pt -1.15 0.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.3)
+      (pt 0.5 0.3)
+      (pt 0.5 -0.3)
+      (pt -0.5 -0.3)
+      (pt -0.5 0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.2)
+      (pt 0 -0.2))))
+   (leg 1 (pt -0.55 0) (padstack 0))
+   (leg 2 (pt 0.55 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 0.7 0 0 0))
+   )
+   (model "GG0402052R542P.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC14051BDR2G
+D Low-noise - 12 nV/sqrt.Cycle, f <= 1.0 kHz Typical; For 4PDT Switch, See MC14551B; Switch Function is Break Before Make; Supply Voltage Range = 3.0 Vdc to 18 Vdc; Analog Voltage Range (VDD - VEE) = 3.0 to 18 V Note: VEE must be <= VSS; Triple Diode Protection on Control Inputs; For Lower RON, Use the HC4051, HC4052, or HC4053 High-Speed CMOS Devices; Linearized Transfer Characteristics; Pin-for-Pin Replacement for CD4051, CD4052, and CD4053; Pb-Free Packages are Available*
+K
+F https://www.onsemi.com/pub/Collateral/MC14051B-D.PDF
+$ENDCMP
+#
+#End Doc Library

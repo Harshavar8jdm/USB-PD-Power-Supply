@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15692053"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-13-04:02:55)
+    (utime 2024-04-02-12:57:52)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GG0402052R542P")
+)
+
+
+(pinAssign "ECS_15692053"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-13-04:02:55)
+    (utime 2024-04-02-12:57:52)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15692053")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GG0402052R542P")
+)
+
+
+(part "GG0402052R542P"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-13-04:02:55)
+    (utime 2024-04-02-12:57:52)
+    (packageRef "GG0402052R542P")
+    (pinAssignRef "ECS_15692053")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes SMP Diode 0402 5vdc 2.5 pf <12v clamp@1a")
+    (property "Mouser_Part_Number" "581-GG0402052R542P")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/GG0402052R542P?qs=AQlKX63v8RvyHtzj%2F7p1Bg%3D%3D")
+    (property "Manufacturer_Name" "Kyocera AVX")
+    (property "Manufacturer_Part_Number" "GG0402052R542P")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

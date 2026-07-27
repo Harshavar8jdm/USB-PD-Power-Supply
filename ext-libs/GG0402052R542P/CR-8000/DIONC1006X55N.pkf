@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DIONC1006X55N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DIONC1006X55N")
+        (spec "default")
+    )
+)

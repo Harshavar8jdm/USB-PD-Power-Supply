@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=GG0402052R542P
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2022-01-13 04:02:55
+Downloaded=2026-07-27 05:44:43
+3D=Y

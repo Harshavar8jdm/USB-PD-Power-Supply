@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GG0402052R542P
+D ESD Suppressors / TVS Diodes SMP Diode 0402 5vdc 2.5 pf <12v clamp@1a
+K
+F 
+$ENDCMP
+#
+#End Doc Library

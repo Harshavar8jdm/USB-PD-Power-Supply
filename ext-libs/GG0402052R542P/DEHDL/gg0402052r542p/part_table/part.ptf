@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GG0402052R542P'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kyocera AVX", "GG0402052R542P" (!) = "", "DIONC1006X55N", "Diodes Chip Non-polarised", "581-GG0402052R542P", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/GG0402052R542P?qs=AQlKX63v8RvyHtzj%2F7p1Bg%3D%3D", "ESD Suppressors / TVS Diodes SMP Diode 0402 5vdc 2.5 pf <12v clamp@1a", "", "0.55 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MC14051BDR2G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MC14051BDR2G" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "863-MC14051BDR2G", "https://www.mouser.co.uk/ProductDetail/onsemi/MC14051BDR2G?qs=g2rIOKKlpoZiRT%252Bz5I%252B8eg%3D%3D", "Low-noise - 12 nV/sqrt.Cycle, f <= 1.0 kHz Typical; For 4PDT Switch, See MC14551B; Switch Function is Break Before Make; Supply Voltage Range = 3.0 Vdc to 18 Vdc; Analog Voltage Range (VDD - VEE) = 3.0 to 18 V Note: VEE must be <= VSS; Triple Diode Protection on Control Inputs; For Lower RON, Use the HC4051, HC4052, or HC4053 High-Speed CMOS Devices; Linearized Transfer Characteristics; Pin-for-Pin Replacement for CD4051, CD4052, and CD4053; Pb-Free Packages are Available*", "https://www.onsemi.com/pub/Collateral/MC14051B-D.PDF", "1.75 mm"
+END_PART
+
+END.
